@@ -131,7 +131,7 @@ Hello! I'm **Tygar**, a self-taught frontend developer and aspiring UI/UX design
 
 - 🌐 Portfolio: [your-site.com](https://www.your-site.com)
 - 👨‍💻 Frontend Mentor: [@Icequebe](https://www.frontendmentor.io/profile/Icequebe)
-- 🐦 Twitter: [@icequebe](https://twitter.com/icequebe)
+- 🐦 Twitter: [@icequebe](https://twitter.com/BhadeTygar)
 
 If you’d like to collaborate, feel free to reach out. I'm always open to learning opportunities, internships, or feedback.
 
