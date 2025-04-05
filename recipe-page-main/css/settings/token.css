@@ -1,0 +1,32 @@
+/*========================*/
+/* GLOBAL DESIGN TOKENS   */
+/*========================*/
+
+:root {
+    /* COLORS */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-stone-100: hsl(30, 54%, 90%);
+    --clr-stone-150: hsl(30, 18%, 87%);
+    --clr-stone-600: hsl(30, 10%, 34%);
+    --clr-stone-900: hsl(24, 5%, 18%);
+    --clr-brown-800: hsl(14, 45%, 36%);
+    --clr-rose-800: hsl(332, 51%, 32%);
+    --clr-rose-50: hsl(330, 100%, 98%);
+
+    /* TYPE */
+    --ff-head: "Young Serif", sefif;
+    --ff-body: "Outfit", sans-serif;
+    --fs-700: 36px;
+    --fs-600: 28px;
+    --fs-500: 20px;
+    --fs-400: 16px;
+    --fw-rg: 400;
+    --fw-sb: 600;
+    --fw-bd: 700;
+
+    /* Spacing */
+    --gap-700: 3em;
+    --gap-600: 2.5em;
+    --gap-500: 1.5em;
+    --gap-400: 1.25em;
+}

@@ -1,0 +1,8 @@
+/*==============================================*/
+/* SETTINGS PARTIAL IMPORTS ALL CSS FILES       */
+/*==============================================*/
+
+@import '../settings/fonts.css';
+@import '../settings/token.css';
+@import '../settings/reset.css';
+@import '../settings/global.css';

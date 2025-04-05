@@ -1,0 +1,7 @@
+/*=========================================*/
+/* MASTER FILE IMPORTS ALL CSS FILES       */
+/*=========================================*/
+
+@import '../css/settings/index.css';
+@import '../css/composition/index.css';
+@import '../css/blocks/index.css';

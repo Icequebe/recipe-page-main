@@ -1,0 +1,134 @@
+/*==========================*/
+/*         CARD BLOCK       */
+/*==========================*/
+
+.card {
+    max-width: 740px;
+    padding: 3em;
+    background-color: var(--clr-white);
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.24);
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.card__image {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.card__intro,
+.card__indredients,
+.card__instructions,
+.card__nutrition {
+    max-width: max-content;
+    padding-block: var(--gap-400);
+}
+
+
+.card__intro {
+        
+    & .intro__title {
+        font-size: var(--fs-700);
+    }
+
+    & .intro__desc {
+        line-height: 1.6em;
+        margin-block: 1em;
+    }
+}
+
+
+.card__prep-time {
+    background-color: var(--clr-rose-50);
+    padding: 1.5em;
+    border-radius: 1em;
+    overflow: hidden;
+
+    & .prep-time__title {
+        font-size: var(--fs-500);
+        color: var(--clr-rose-800);
+    }
+    
+    & .prep-time__list {
+        padding-left: 1.5em;
+        
+        & li {
+            margin-right: 1rem;
+        }
+        
+        & strong {
+            font-size: var(--fs-400);
+            font-weight: var(--fw-bd);
+            color: var(--clr-stone-600);
+        }
+    }
+}
+
+
+.card__indredients {
+    
+    & .indredients__title {
+        font-size: var(--fs-600);
+        font-weight: var(--fw-sb);
+        color: var(--clr-brown-800);
+    }
+    
+    & .indredients__list {
+        padding-left: 1.5em;
+    }
+}
+
+.card__instructions {
+    
+    & .instruction__title {
+        font-size: var(--fs-600);
+        font-weight: var(--fw-sb);
+        color: var(--clr-brown-800);
+    }
+    
+    & .instruction__list {
+        padding-left: 1.5em;
+    }
+}
+
+.card__nutrition {
+
+    & .nutrition__title {
+        font-size: var(--fs-600);
+        font-weight: var(--fw-sb);
+        color: var(--clr-brown-800);
+    }
+
+    & .nutrition__desc {
+        margin-block: 1em;
+    }
+
+    & .nutrition__table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1em;
+
+        & tr {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            border-bottom: 1px solid var(--clr-stone-150);
+        }
+
+        & td {
+            padding: 1em;
+
+            & strong {
+                font-weight: var(--fw-bd);
+                color: var(--clr-brown-800);
+            }
+        }
+
+        & tr:last-child {
+            border: none;
+        }
+    }
+}
+
+

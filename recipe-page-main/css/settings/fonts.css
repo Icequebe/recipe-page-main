@@ -1,0 +1,21 @@
+/*==================================*/
+/* GLOBAL FONTS STYLES              */
+/*==================================*/
+
+@font-face {
+    font-family: "Young Serif";
+    src: url("../../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400 700;
+}
+
+

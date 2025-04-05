@@ -1,0 +1,68 @@
+/*=========================================*/
+/* BASE STYLES                             */
+/*=========================================*/
+
+body {
+    padding-block: 4em;
+    overflow-x: hidden;
+
+    background-color: var(--clr-rose-50);
+    color: var(--clr-stone-600);
+
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-rg);
+    letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-head);
+    font-weight: var(--fw-bd);
+    line-height: 1.15;
+    text-wrap: balance;
+}
+
+p,
+li,
+blockquote {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    text-wrap: pretty;
+    max-width: 70ch;
+}
+
+ul li::marker {
+    font-weight: var(--fw-bd);
+    color: var(--clr-brown-800);
+}
+
+ol li::marker {
+    font-weight: var(--fw-bd);
+    color: var(--clr-brown-800);
+}
+
+li {
+    margin-top: .5em;
+    padding-left: 1em;
+}
+
+hr {
+    width: 100%;
+    margin-inline: 2em;
+    border: none;
+    outline: none;
+    height: 1.15px;
+    background-color: var(--clr-stone-150);
+}
+
+@media only screen and (min-width: 48em){
+    .wrapper {
+        padding-inline: 1em;
+    }
+}
